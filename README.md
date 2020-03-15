@@ -20,3 +20,8 @@ Connectors can either be base connectors to protocols, higher level connectors w
 The last type of connector will allow developers to seamlessly access the short term liquidity pool, which enables any developer to help the users seamlessly port instant porting of positions across protocols, for instance for interest payment minimization or yield maximization. 
 
 DeFi accounts can compose and execute any number of actions from connectors in a single web3 transaction. Using only web3 calls, frontend developers will be able to string together the available actions in the connectors to create innovative new transactions.
+
+## TODO
+- separate page with more technical context on connectors, link to repo
+- explainer for frontends 
+- explainer for protocols 
