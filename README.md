@@ -1,8 +1,7 @@
 # DeFi Smart Accounts Overview
-DeFi Smart Accounts (DSA) are [contract accounts](https://medium.com/@markmuskardin/mastering-the-fundamentals-of-ethereum-for-new-blockchain-devs-part-iii-wallets-keys-and-4cd3175b535b) trustlessly owned by the users, designed to allow developers to build extensible products and business models on top of DeFi with maximum security and composability.
+DeFi Smart Accounts (DSA) are [contract accounts](https://medium.com/@markmuskardin/mastering-the-fundamentals-of-ethereum-for-new-blockchain-devs-part-iii-wallets-keys-and-4cd3175b535b) trustlessly owned by the users, designed to allow developers to build extensible products and business models on top of DeFi with maximum security and composability. This guide provides a brief overview of the key entities involved in the system. 
 
-This guide provides a brief overview of the key entities involved in the system. Future guides will focus on
-
+Coming:
 - Integration options for frontends
 - How DeFi devs can build for DSA users
 - How protocols can make their systems accessible to DSA users and devs.
@@ -21,7 +20,7 @@ Let us review each of these in more detail:
 ## DeFi Smart Accounts
 DSAs are created by regular Ethereum accounts (or EOAs). Each Ethereum can create as many DeFi accounts as they want. DeFi accounts are fully trustless, so users can choose to withdraw their assets anytime to the owners.
 
-(one EOA owning many accounts)
+(diagram for one EOA owning several accounts)
 
 DeFi accounts can compose and execute any number of actions from connectors in a single web3 transaction. Using only web3 calls, frontend developers will be able to string together the available actions in the connectors to create innovative new transactions.
 
@@ -44,9 +43,9 @@ Different types of connectors provide different set of capabilities towards DSAs
 1. Protocol connectors: Access key protocol functions directly. 
 2. Auth connectors: Update permissions of the smart accounts.
 3. Use case specific connectors: Execute higher level use cases that cannot be done or expensive with stringing basic functions. 
-4. Connect to native liquidity pools: Access the short term liquidity pool. 
+4. Instant liquidity pools connectors<sup>*</sup>: Access the short term liquidity pool for features that require asset porting, or "flash loans" for example, porting debt positions, interest payment minimization or yield maximization. 
 
-The last type of connector allowing developers to build any feature that require asset porting, or "flash loans". These includes use cases like instant porting of positions across protocols, for instance for interest payment minimization or yield maximization. Unlike elsewhere, it is free to use.
+* Liquidity pools is free to use.
 
 ### Casting Spells
 (give examples of casting)
@@ -55,5 +54,4 @@ The last type of connector allowing developers to build any feature that require
 (give examples of guidelines)
 
 ## Permission Modules 
-
 (explain auth modules)
