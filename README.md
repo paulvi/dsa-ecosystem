@@ -48,7 +48,16 @@ Different types of connectors provide different set of capabilities towards DSAs
 * Liquidity pools is free to use.
 
 ### Casting Spells
-(give examples of casting)
+For example, to build the protocol bridge to migrate debt from Maker To Compound, the DSA will `cast` the following sequence of connector functions
+
+- Instapool: Access liquidity
+- Maker: Payback DAI 
+- Maker: Withdraw ETH 
+- Compound: deposit ETH 
+- Compound: borrow DAI 
+- Instapool: Return liquidity
+
+These are called `spells`, which denote a sequence of connector functions that achieve a given use case.
 
 ### Adding New Connectors
 (give examples of guidelines)
