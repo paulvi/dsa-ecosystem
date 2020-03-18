@@ -45,7 +45,7 @@ Different types of connectors provide different set of capabilities towards DSAs
 3. Use case specific connectors: Execute higher level use cases that cannot be done or expensive with stringing basic functions. 
 4. Instant liquidity pools connectors<sup>*</sup>: Access the short term liquidity pool for features that require asset porting, or "flash loans" for example, porting debt positions, interest payment minimization or yield maximization. 
 
-* Liquidity pools is free to use.
+<sup>*</sup> Liquidity pools is free to use.
 
 ### Casting Spells
 For example, to build the protocol bridge to migrate debt from Maker To Compound, the DSA will `cast` the following sequence of connector functions
