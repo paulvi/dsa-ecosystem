@@ -1,6 +1,9 @@
 # DeFi Smart Accounts Overview
 DeFi Smart Accounts (DSA) are [contract accounts](https://medium.com/@markmuskardin/mastering-the-fundamentals-of-ethereum-for-new-blockchain-devs-part-iii-wallets-keys-and-4cd3175b535b) trustlessly owned by the users, designed to allow developers to build extensible products and business models on top of DeFi with maximum security and composability. This guide provides a brief overview of the key entities involved in the system. 
 
+WIP:
+- [Security Notes](./security.md)
+
 Coming:
 - Integration options for frontends
 - How DeFi devs can build for DSA users
