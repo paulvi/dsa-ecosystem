@@ -80,20 +80,3 @@ It is up to the developer to optimize for the right balance of trustlessness and
 
 ### Security And Transparency
 To ensure maximum transparency and security, all of the user’s DSAs (and approved authentications will be visible Instadapp. We will also be providing helper smart contracts and SDKs to allow developers to easily see and verify the DSAs and corresponding authentications. 
-
-## WIP
-
-### Guides
-- Getting started guide
-- Creating a connector
-- Casting a spell
-
-### Docs
-- Security considerations
-- API docs
-- Connector docs
-- Permission module docs
-
-### Examples
-- Spell examples
-- Use case specific connector
