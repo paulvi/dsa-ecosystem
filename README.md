@@ -14,7 +14,7 @@ For further context about motivation and likely use cases, read the accompanying
 ## Key Entities
 There are 3 key entities in DSAs:
 
-1. **Defi Accounts**, which are trustlessly owned by the users. Assets are stored here. DSAs can execute composed transactions across connectors.
+1. **DeFi Accounts**, which are trustlessly owned by the users. Assets are stored here. DSAs can execute composed transactions across connectors.
 2. **Connectors**, which are standardized modules that interact with the various protocols, and make the important actions accessible to smart accounts. 
 3. **Authentication Modules**, which users can use to set guardians, managers or automation bots to manage their DSA. Permissions can be modular down to connector levels. For example, users can allow the wallet provider to rebalance his assets to minimize interest payment or maximize yields, but nothing else. 
 
@@ -23,7 +23,7 @@ There are 3 key entities in DSAs:
 Let us review each of these in more detail:
 
 ## 1. DeFi Smart Accounts
-DSAs are created by regular Ethereum accounts (or EOAs). Each Ethereum can create as many DeFi accounts as they want. DeFi accounts are fully trustless, so users can choose to withdraw their assets anytime to the owners.
+DSAs are created by regular Ethereum accounts (aka [EOAs](https://ethereum.org/en/whitepaper/#ethereum-accounts)). Each Ethereum can create as many DeFi accounts as they want. DeFi accounts are fully trustless, so users can choose to withdraw their assets anytime to the owners.
 
 DeFi accounts can compose and execute any number of actions from connectors in a single web3 transaction. Using only web3 calls, frontend developers will be able to string together the available actions in the connectors to create innovative new transactions.
 
